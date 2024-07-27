@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+  
+<body>
+    <div>
+        <h1 id="cahnge">Today weather forcast check</h1>
+    <label style="display: block; -webkit-text-stroke-color: aqua;" for="WC">Weather ForCast</label>
+    <input type="number" name="WC"  id="WC">
+    <br>
+    <button type="submit" onclick="checkweather(); return false"> Check Weather</button>
+</div>
+    
+</body>
+<script>
+    function checkweather(){
+        var weather=
+        document.getElementById("WC").value
+        
+      
+        if (weather>=40 && weather<50){
+            document.write(" weather of out side is too hot and you need to dirnk water and stay in shadows")
+        }
+        else if (weather>=25 && weather<39){
+            document.write(" weather of out side is not much hot you can go out side and do you work")
+        }
+        else if (weather>=20 && weather<24){
+            document.write(" weather of out side is Normal enjoy it ")
+        }
+        else if (weather>=5 && weather<19){
+            document.write(" weather of out side is cool drink tea and some hot meals")
+        }
+        else
+        document.write(" not valid")    
+
+    } 
+
+
+</script>
+</html>

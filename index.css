@@ -1,0 +1,85 @@
+body{
+    background-color: wheat;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-size: larger;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    background-image: url(./file-20220126-17-1i0g402.jpg);
+    background-size: cover;
+    
+    background-repeat: no-repeat;
+    overflow: auto;
+    color: rgb(49, 10, 10);
+   
+    cursor: pointer;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    position: relative;
+    transform: scale(1);
+    z-index: 0;
+    filter: brightness(1);
+    
+    overflow: hidden;
+    overflow-y: scroll;
+}
+
+h1 {
+    border: 0.1cm;
+    border-style: groove solid;
+    border-color: rgb(107, 67, 67);
+    padding: 15px;
+    border-radius: 30%;
+    background-color: rgba(255, 255, 255, 0.5);
+ 
+    
+    font-size: 70px;
+    margin-bottom: 20px;
+    color: rgb(109, 157, 79);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    
+}
+label{
+    border: 10cm;   
+    font-size: 40px;
+    margin-bottom: 10px;
+    color: rgb(87, 33, 112);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+
+    transition: filter 0.3s ease;
+    opacity: 1;
+    border: 20% solid transparent;
+
+}
+button:hover
+
+button {
+    margin-top: 50px;
+    padding: 30px 20px;
+    border-radius: 10px;
+    background-color: rgb(107, 67, 67);
+    color: rgb(255, 255, 255);
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    transform: translateY(0);
+    font-size: 40px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+
+}
+input{
+    margin-top: 20px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.5);
+    color: rgb(109, 157, 79);
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    transform: translateY(0);
+    font-size: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
